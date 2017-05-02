@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseCode">
+      <UniqueIdentifier>{db6e1ed1-d768-461b-a65c-9914479221f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BehaviourTree">
+      <UniqueIdentifier>{7468b3f2-a445-4d54-910a-4d4c47f01175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviours">
+      <UniqueIdentifier>{29909990-4de1-45df-9466-5c468d7954c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BehaviourTree">
+      <UniqueIdentifier>{440c840e-ee76-421c-8dc6-b3a0e6b9d49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviours">
+      <UniqueIdentifier>{cf3a5c0a-e384-4422-9288-08a694585427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Queries">
+      <UniqueIdentifier>{f243e286-f3e0-4980-884c-17a857e090dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queries">
+      <UniqueIdentifier>{5db1f4eb-13d3-49e1-9adc-9dee13b311bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PathFinding">
+      <UniqueIdentifier>{aef8acf4-0472-4b1e-ad05-26d00995915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PathFinding">
+      <UniqueIdentifier>{651f5368-17e8-4bde-a5d1-70bdf4355003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Application2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Obstacle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\ArrivalBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\AvoidanceBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\EvadeBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\FleeBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\FollowBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\IBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\KeyboardBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\PursueBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\SeekBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\WanderBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\Sequence.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\Action.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\BhtLeaf.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\Composite.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\Condition.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\IBehaviourTree.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\Selector.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\IQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\ObstacleQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\StatusQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseCode\BaseApplication.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseCode\Font.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseCode\gl_core_4_4.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseCode\SpriteBatch.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseCode\Texture.h">
+      <Filter>BaseCode</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\CountQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlayerAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WandererAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\WandererBT.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\PlayerRangeQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\WandererRangeQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\InverseDecorator.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pathfinding\Graph.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pathfinding\PathFinder.h">
+      <Filter>Header Files\PathFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\PathBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\PathQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\PlayerBT.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\PlayerArrivalQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\ActionEvade.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Behaviours\WaitingBehaviour.h">
+      <Filter>Header Files\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BehaviourTree\ActionNewPath.h">
+      <Filter>Header Files\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Queries\PathNewQuery.h">
+      <Filter>Header Files\Queries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BaseCode\BaseApplication.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseCode\Font.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseCode\gl_core_4_4.c">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseCode\SpriteBatch.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseCode\Texture.cpp">
+      <Filter>BaseCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\ArrivalBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\AvoidanceBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\EvadeBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\FleeBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\FollowBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\IBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\KeyboardBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\PursueBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\SeekBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\WanderBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\Action.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\BhtLeaf.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\Composite.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\Condition.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\IBehaviourTree.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\Selector.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\Sequence.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\CountQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\IQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\ObstacleQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\StatusQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collisions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Obstacle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlayerAgent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WandererAgent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\WandererBT.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\PlayerRangeQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\WandererRangeQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\InverseDecorator.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pathfinding\Graph.cpp">
+      <Filter>Source Files\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pathfinding\PathFinder.cpp">
+      <Filter>Source Files\PathFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\PathBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\PlayerBT.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\PathQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\PlayerArrivalQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\ActionEvade.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Behaviours\WaitingBehaviour.cpp">
+      <Filter>Source Files\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BehaviourTree\ActionNewPath.cpp">
+      <Filter>Source Files\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Queries\PathNewQuery.cpp">
+      <Filter>Source Files\Queries</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

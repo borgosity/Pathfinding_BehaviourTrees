@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Agent.h" />
+    <ClInclude Include="include\Application2D.h" />
+    <ClInclude Include="include\BaseCode\BaseApplication.h" />
+    <ClInclude Include="include\BaseCode\Font.h" />
+    <ClInclude Include="include\BaseCode\gl_core_4_4.h" />
+    <ClInclude Include="include\BaseCode\SpriteBatch.h" />
+    <ClInclude Include="include\BaseCode\Texture.h" />
+    <ClInclude Include="include\Behaviours\ArrivalBehaviour.h" />
+    <ClInclude Include="include\Behaviours\AvoidanceBehaviour.h" />
+    <ClInclude Include="include\Behaviours\EvadeBehaviour.h" />
+    <ClInclude Include="include\Behaviours\FleeBehaviour.h" />
+    <ClInclude Include="include\Behaviours\FollowBehaviour.h" />
+    <ClInclude Include="include\Behaviours\IBehaviour.h" />
+    <ClInclude Include="include\Behaviours\KeyboardBehaviour.h" />
+    <ClInclude Include="include\Behaviours\PathBehaviour.h" />
+    <ClInclude Include="include\Behaviours\PursueBehaviour.h" />
+    <ClInclude Include="include\Behaviours\SeekBehaviour.h" />
+    <ClInclude Include="include\Behaviours\WaitingBehaviour.h" />
+    <ClInclude Include="include\Behaviours\WanderBehaviour.h" />
+    <ClInclude Include="include\BehaviourTree\Action.h" />
+    <ClInclude Include="include\BehaviourTree\ActionEvade.h" />
+    <ClInclude Include="include\BehaviourTree\ActionNewPath.h" />
+    <ClInclude Include="include\BehaviourTree\BhtLeaf.h" />
+    <ClInclude Include="include\BehaviourTree\Composite.h" />
+    <ClInclude Include="include\BehaviourTree\Condition.h" />
+    <ClInclude Include="include\BehaviourTree\IBehaviourTree.h" />
+    <ClInclude Include="include\BehaviourTree\InverseDecorator.h" />
+    <ClInclude Include="include\BehaviourTree\PlayerBT.h" />
+    <ClInclude Include="include\BehaviourTree\Selector.h" />
+    <ClInclude Include="include\BehaviourTree\Sequence.h" />
+    <ClInclude Include="include\BehaviourTree\WandererBT.h" />
+    <ClInclude Include="include\GameDef.h" />
+    <ClInclude Include="include\Obstacle.h" />
+    <ClInclude Include="include\Pathfinding\Graph.h" />
+    <ClInclude Include="include\Pathfinding\PathFinder.h" />
+    <ClInclude Include="include\PlayerAgent.h" />
+    <ClInclude Include="include\Queries\CountQuery.h" />
+    <ClInclude Include="include\Queries\IQuery.h" />
+    <ClInclude Include="include\Queries\ObstacleQuery.h" />
+    <ClInclude Include="include\Queries\PathNewQuery.h" />
+    <ClInclude Include="include\Queries\PathQuery.h" />
+    <ClInclude Include="include\Queries\PlayerArrivalQuery.h" />
+    <ClInclude Include="include\Queries\PlayerRangeQuery.h" />
+    <ClInclude Include="include\Queries\StatusQuery.h" />
+    <ClInclude Include="include\Queries\WandererRangeQuery.h" />
+    <ClInclude Include="include\WandererAgent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Agent.cpp" />
+    <ClCompile Include="src\Application2D.cpp" />
+    <ClCompile Include="src\BaseCode\BaseApplication.cpp" />
+    <ClCompile Include="src\BaseCode\Font.cpp" />
+    <ClCompile Include="src\BaseCode\gl_core_4_4.c" />
+    <ClCompile Include="src\BaseCode\SpriteBatch.cpp" />
+    <ClCompile Include="src\BaseCode\Texture.cpp" />
+    <ClCompile Include="src\Behaviours\ArrivalBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\AvoidanceBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\EvadeBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\FleeBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\FollowBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\IBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\KeyboardBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\PathBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\PursueBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\SeekBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\WaitingBehaviour.cpp" />
+    <ClCompile Include="src\Behaviours\WanderBehaviour.cpp" />
+    <ClCompile Include="src\BehaviourTree\Action.cpp" />
+    <ClCompile Include="src\BehaviourTree\ActionEvade.cpp" />
+    <ClCompile Include="src\BehaviourTree\ActionNewPath.cpp" />
+    <ClCompile Include="src\BehaviourTree\BhtLeaf.cpp" />
+    <ClCompile Include="src\BehaviourTree\Composite.cpp" />
+    <ClCompile Include="src\BehaviourTree\Condition.cpp" />
+    <ClCompile Include="src\BehaviourTree\IBehaviourTree.cpp" />
+    <ClCompile Include="src\BehaviourTree\InverseDecorator.cpp" />
+    <ClCompile Include="src\BehaviourTree\PlayerBT.cpp" />
+    <ClCompile Include="src\BehaviourTree\Selector.cpp" />
+    <ClCompile Include="src\BehaviourTree\Sequence.cpp" />
+    <ClCompile Include="src\BehaviourTree\WandererBT.cpp" />
+    <ClCompile Include="src\Collisions.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Obstacle.cpp" />
+    <ClCompile Include="src\Pathfinding\Graph.cpp" />
+    <ClCompile Include="src\Pathfinding\PathFinder.cpp" />
+    <ClCompile Include="src\PlayerAgent.cpp" />
+    <ClCompile Include="src\Queries\CountQuery.cpp" />
+    <ClCompile Include="src\Queries\IQuery.cpp" />
+    <ClCompile Include="src\Queries\ObstacleQuery.cpp" />
+    <ClCompile Include="src\Queries\PathNewQuery.cpp" />
+    <ClCompile Include="src\Queries\PathQuery.cpp" />
+    <ClCompile Include="src\Queries\PlayerArrivalQuery.cpp" />
+    <ClCompile Include="src\Queries\PlayerRangeQuery.cpp" />
+    <ClCompile Include="src\Queries\StatusQuery.cpp" />
+    <ClCompile Include="src\Queries\WandererRangeQuery.cpp" />
+    <ClCompile Include="src\WandererAgent.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{63494F4E-79FA-48AD-AA6C-BDF1FF1619FD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AIEOpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)include\Queries;$(SolutionDir)include\BehaviourTree;$(SolutionDir)include\Behaviours;$(SolutionDir)include\PathFinding;$(SolutionDir)include\BaseCode;$(SolutionDir)dep\glm;$(SolutionDir)dep\glfw-3.1.2\include;$(SolutionDir)dep\stb-master;$(SolutionDir)dep\imgui;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)dep/glfw-3.1.2/src/$(Configuration);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <IntDir>$(SolutionDir)build\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)include\Queries;$(SolutionDir)include\BehaviourTree;$(SolutionDir)include\Behaviours;$(SolutionDir)include\PathFinding;$(SolutionDir)include\BaseCode;$(SolutionDir)dep\glm;$(SolutionDir)dep\glfw-3.1.2\include;$(SolutionDir)dep\stb-master;$(SolutionDir)dep\imgui;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)dep/glfw-3.1.2/src/$(Configuration);$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(SolutionDir)build\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>($SolutionDir)\dep\glw;$(SolutionDir)include;$(SolutionDir)include\Queries;$(SolutionDir)include\BehaviourTree;$(SolutionDir)include\Behaviours;$(SolutionDir)include\PathFinding;$(SolutionDir)include\BaseCode</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>($SolutionDir)\dep\glw;$(SolutionDir)include;$(SolutionDir)include\Queries;$(SolutionDir)include\BehaviourTree;$(SolutionDir)include\Behaviours;$(SolutionDir)include\PathFinding;$(SolutionDir)include\BaseCode</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
